@@ -1,0 +1,790 @@
+.logoPlaceholder {
+  width: 16px;
+  position: relative;
+  border-radius: 999px;
+  background-color: #007cff;
+  height: 16px;
+}
+.logo1 {
+  position: relative;
+  line-height: 24px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 18px;
+}
+.cariAktivitas {
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+.page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+}
+.pages {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  display: none;
+}
+.text {
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+}
+.secondarySmallButton {
+  border-radius: 999px;
+  background-color: #e7f2ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 16px;
+  gap: 8px;
+}
+.primarySmallButton {
+  border-radius: 999px;
+  background-color: #007cff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 16px;
+  gap: 8px;
+  color: #fff;
+}
+.ctas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  color: #007cff;
+}
+.navigasiBar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  margin: 0 !important;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 2px 8px rgba(48, 49, 53, 0.16);
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 80px;
+  box-sizing: border-box;
+  gap: 40px;
+  text-align: left;
+  font-size: 16px;
+  color: #303135;
+  font-family: 'Plus Jakarta Sans';
+}
+
+.kehadiranmuDanDonasimu {
+  align-self: stretch;
+  position: relative;
+  line-height: 36px;
+  font-weight: 600;
+}
+.kekuatanBagiOrang {
+  align-self: stretch;
+  position: relative;
+  font-size: 56px;
+  line-height: 62px;
+}
+.txtOnHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.jadilahPenolongBagi {
+  align-self: stretch;
+  position: relative;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #71747d;
+}
+.icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  display: none;
+}
+.text {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.primaryButtonLarge {
+  border-radius: 999px;
+  background-color: #007cff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 24px;
+  gap: 8px;
+  text-align: left;
+  font-size: 22px;
+  color: #fff;
+}
+.contentOnHeader {
+  background-color: #f8fafc;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px 80px;
+  gap: 28px;
+  font-size: 28px;
+}
+.imgIcon {
+  width: 320px;
+  position: relative;
+  height: 384px;
+  object-fit: cover;
+}
+.imgsContent {
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.imgs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 80px 40px;
+}
+.aboutUs1 {
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+}
+.label {
+  border-radius: 999px;
+  background-color: #e7f2ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+}
+.semakinBanyakOrang {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+}
+.banyakOrangMembutuhkan {
+  align-self: center;
+  position: relative;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #71747d;
+  display: flex;
+}
+.txtOnSectionAboutUs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 24px;
+  color: #303135;
+}
+.titleOnSectionAboutUs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 34px;
+}
+.imgIcon4 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 240px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.lindungiBumiKita {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+}
+.pelestarianAlamDimulai {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.txtOnCard {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+}
+.icon2 {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  display: none;
+}
+.text1 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.primaryButtonMedium {
+  align-self: stretch;
+  border-radius: 999px;
+  background-color: #baf479;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 20px;
+  gap: 8px;
+  text-align: center;
+  font-size: 18px;
+  color: #007cff;
+}
+.contentOnCard {
+  align-self: stretch;
+  background: linear-gradient(251.89deg, #007cff 15.78%, #44cfd5);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 28px;
+}
+.card {
+  width: 411px;
+  box-shadow: 0px 4px 0px #007cff;
+  border-radius: 16px;
+  border: 1px solid #007cff;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card1 {
+  width: 410px;
+  box-shadow: 0px 4px 0px #007cff;
+  border-radius: 16px;
+  border: 1px solid #007cff;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cards {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  text-align: left;
+  font-size: 22px;
+  color: #fff;
+}
+.aboutUs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 80px;
+  gap: 40px;
+  font-size: 16px;
+  color: #007cff;
+}
+.kamuJugaBisa {
+  align-self: stretch;
+  position: relative;
+  line-height: 40px;
+}
+.satuDonasiAnda {
+  font-weight: 500;
+}
+.satuDonasiAndaContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 24px;
+  line-height: 32px;
+}
+.txtOnBanner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.ppIcon {
+  position: absolute;
+  top: 0px;
+  left: 118px;
+  border-radius: 999px;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+.ppIcon1 {
+  position: absolute;
+  top: 0px;
+  left: 162px;
+  border-radius: 999px;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+.ppIcon2 {
+  position: absolute;
+  top: 0px;
+  left: 206px;
+  border-radius: 999px;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+.ppIcon3 {
+  position: absolute;
+  top: 0px;
+  left: 250px;
+  border-radius: 999px;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+.ppIcon4 {
+  position: absolute;
+  top: 0px;
+  left: 294px;
+  border-radius: 999px;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+.profilePicture {
+  align-self: stretch;
+  position: relative;
+  height: 64px;
+}
+.lebihDari1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+}
+.contentPp {
+  width: 428px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.div {
+  width: 22px;
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+  display: inline-block;
+}
+.emoticon {
+  border-radius: 999px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+  text-align: center;
+  font-size: 16px;
+}
+.primaryButtonLargeIconleft {
+  border-radius: 999px;
+  background-color: #007cff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 24px;
+  gap: 8px;
+  text-align: left;
+  font-size: 22px;
+}
+.contentBanner {
+  align-self: stretch;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px;
+  gap: 40px;
+  background-image: url('/content-banner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.banner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 40px 80px;
+  font-size: 32px;
+  color: #fff;
+}
+.txtOnSectionProduct {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.imgOnPdCardIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 202px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.lingkungan {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.label1 {
+  border-radius: 999px;
+  background-color: #f0ffe6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  text-align: center;
+  color: #58cc02;
+}
+.bersihPantaiNusantara {
+  margin: 0;
+}
+.bersihPantaiNusantaraContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 22px;
+  line-height: 28px;
+}
+.penyelenggaraLogo {
+  width: 22px;
+  position: relative;
+  border-radius: 999px;
+  background-color: #d9d9d9;
+  height: 22px;
+  display: none;
+}
+.yayasanHijauNusantara {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+.penyelenggara {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 16px;
+  color: #71747d;
+}
+.calendarIcon {
+  border-radius: 999px;
+  background-color: #e7f2ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px;
+}
+.sabtu14September {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.tanggal {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.locationIcon {
+  width: 12px;
+  position: relative;
+  height: 12px;
+}
+.tglloc {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.detailPdCard {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.primaryButtonMedium3 {
+  align-self: stretch;
+  border-radius: 999px;
+  background-color: #007cff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 20px;
+  gap: 8px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+.contentPdCard {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px;
+  gap: 32px;
+}
+.pdCard {
+  width: 302px;
+  box-shadow: 0px 4px 0px #eceef3;
+  border-radius: 16px;
+  background-color: #fff;
+  border: 1px solid #eceef3;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.label4 {
+  border-radius: 999px;
+  background-color: #fff4e5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  text-align: center;
+  color: #ff9600;
+}
+.row1Pd {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.label7 {
+  border-radius: 999px;
+  background-color: #ffe5ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  text-align: center;
+  color: #ff66ff;
+}
+.row1PdParent {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 28px;
+  text-align: left;
+  font-size: 14px;
+}
+.text13 {
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.primaryButtonLarge1 {
+  width: 480px;
+  border-radius: 999px;
+  background-color: #e7f2ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  gap: 8px;
+  font-size: 22px;
+  color: #007cff;
+}
+.productSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 80px;
+  gap: 40px;
+}
+.profileOnReviewIcon {
+  width: 132px;
+  position: relative;
+  border-radius: 8px;
+  height: 132px;
+  object-fit: cover;
+}
+.iniMerupakanPengalaman {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.sitiAsmuni {
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #71747d;
+}
+.contentRvCard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.rvCard {
+  width: 628px;
+  box-shadow: 0px 4px 0px #eceef3;
+  border-radius: 16px;
+  background-color: #fff;
+  border: 1px solid #eceef3;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+.row1Rv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.rvCards {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  text-align: left;
+  font-size: 18px;
+}
+.reviewSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 80px 80px;
+  gap: 40px;
+  background-image: url('/review-section.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.hmContent {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 88px 0px 0px;
+  box-sizing: border-box;
+  gap: 40px;
+  text-align: center;
+  font-size: 24px;
+  color: #303135;
+  font-family: 'Plus Jakarta Sans';
+}
+
