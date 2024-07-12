@@ -1,0 +1,222 @@
+.biodataPelamar {
+  align-self: stretch;
+  position: relative;
+  line-height: 40px;
+}
+.detailKontakIni {
+  align-self: stretch;
+  position: relative;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #71747d;
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.radioButtonIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tuan {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  color: #4d4f56;
+}
+.namaLengkapSesuai {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.inputField {
+  align-self: stretch;
+  border-radius: 12px;
+  border: 2px solid #e0e2eb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 24px;
+}
+.idIndonesia {
+  width: 32px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.country {
+  background-color: #f0f0f5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 24px;
+}
+.nomorPonsel {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.div {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.contentPnsl {
+  width: 94px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.phoneInput {
+  align-self: stretch;
+  border-radius: 8px;
+  border: 2px solid #e0e2eb;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 24px 0px 0px;
+  gap: 16px;
+  font-size: 14px;
+}
+.unggah {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.unggahWrapper {
+  border-radius: 999px;
+  background-color: #007cff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+  font-size: 16px;
+  color: #fff;
+}
+.inputField3 {
+  align-self: stretch;
+  border-radius: 12px;
+  border: 2px solid #e0e2eb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 24px;
+  gap: 10px;
+}
+.inputField4 {
+  align-self: stretch;
+  border-radius: 12px;
+  border: 2px solid #e0e2eb;
+  box-sizing: border-box;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 24px;
+}
+.input {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 28px;
+}
+.icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  display: none;
+}
+.text {
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.primaryButtonLarge {
+  align-self: stretch;
+  border-radius: 999px;
+  background-color: #007cff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 24px;
+  gap: 8px;
+  text-align: center;
+  font-size: 22px;
+  color: #fff;
+}
+.biodata {
+  align-self: stretch;
+  box-shadow: 0px 2px 8px rgba(48, 49, 53, 0.16);
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 40px;
+  font-size: 18px;
+  color: #71747d;
+}
+.contentBioPelamar {
+  width: 844px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.contentBio {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 154px 80px 80px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 32px;
+  color: #303135;
+  font-family: 'Plus Jakarta Sans';
+}

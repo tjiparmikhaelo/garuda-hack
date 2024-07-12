@@ -1,6 +1,6 @@
-import type { NextPage } from 'next';
-import styles from './index.module.css';
+import styles from '@/app/styles/index.module.css';
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
+import Link from 'next/link';
 
 
 export default function Home() {
@@ -119,10 +119,10 @@ export default function Home() {
         				<div className={styles.row1PdParent}>
           					<div className={styles.row1Pd}>
             						<div className={styles.pdCard}>
-              							<img className={styles.imgOnPdCardIcon} alt="" src="img-on-pd-card.png" />
+              							<img className={styles.imgOnPdCardIcon} alt="" src="/img-on-pd-card.png" />
               							<div className={styles.contentPdCard}>
                 								<div className={styles.detailPdCard}>
-                  									<div className={styles.label1}>
+                  									<div className={styles.labelLingkungan}>
                     										<div className={styles.lingkungan}>Lingkungan</div>
                   									</div>
                   									<b className={styles.bersihPantaiNusantaraContainer}>
@@ -135,30 +135,31 @@ export default function Home() {
                   									<div className={styles.tglloc}>
                     										<div className={styles.tanggal}>
                       											<div className={styles.calendarIcon}>
-                        												<img className={styles.locationIcon} alt="" src="calendar.svg" />
+                        												<img className={styles.locationIcon} alt="" src="/calendar.svg" />
                       											</div>
                       											<div className={styles.sabtu14September}>Sabtu, 14 September 2024</div>
                     										</div>
                     										<div className={styles.tanggal}>
                       											<div className={styles.calendarIcon}>
-                        												<img className={styles.locationIcon} alt="" src="location.svg" />
+                        												<img className={styles.locationIcon} alt="" src="/location.svg" />
                       											</div>
                       											<div className={styles.sabtu14September}>Pantai Ancol, Jakarta</div>
                     										</div>
                   									</div>
                 								</div>
-                								<div className={styles.primaryButtonMedium3}>
-                  									<div className={styles.icon2} />
-                  									<div className={styles.text1}>Daftar sebagai volunteer</div>
-                  									<div className={styles.icon2} />
+                                <div className={styles.primaryButtonMedium3}>
+                  									<button className='styles.icon2'>
+                                      <Link href="/job/detail">Daftar sebagai volunteer</Link>
+                                    </button>
                 								</div>
+
               							</div>
             						</div>
             						<div className={styles.pdCard}>
-              							<img className={styles.imgOnPdCardIcon} alt="" src="img-on-pd-card.png" />
+              							<img className={styles.imgOnPdCardIcon} alt="" src="/img-on-pd-card2.png" />
               							<div className={styles.contentPdCard}>
                 								<div className={styles.detailPdCard}>
-                  									<div className={styles.label1}>
+                  									<div className={styles.labelLingkungan}>
                     										<div className={styles.lingkungan}>Lingkungan</div>
                   									</div>
                   									<b className={styles.bersihPantaiNusantaraContainer}>Penanaman Pohon Serentak</b>
@@ -169,13 +170,13 @@ export default function Home() {
                   									<div className={styles.tglloc}>
                     										<div className={styles.tanggal}>
                       											<div className={styles.calendarIcon}>
-                        												<img className={styles.locationIcon} alt="" src="calendar.svg" />
+                        												<img className={styles.locationIcon} alt="" src="/calendar.svg" />
                       											</div>
                       											<div className={styles.sabtu14September}>Minggu, 22 September 2024</div>
                     										</div>
                     										<div className={styles.tanggal}>
                       											<div className={styles.calendarIcon}>
-                        												<img className={styles.locationIcon} alt="" src="location.svg" />
+                        												<img className={styles.locationIcon} alt="" src="/location.svg" />
                       											</div>
                       											<div className={styles.sabtu14September}>Hutan Kota, Bandung</div>
                     										</div>
@@ -189,10 +190,10 @@ export default function Home() {
               							</div>
             						</div>
             						<div className={styles.pdCard}>
-              							<img className={styles.imgOnPdCardIcon} alt="" src="img-on-pd-card.png" />
+              							<img className={styles.imgOnPdCardIcon} alt="" src="/img-on-pd-card3.png" />
               							<div className={styles.contentPdCard}>
                 								<div className={styles.detailPdCard}>
-                  									<div className={styles.label1}>
+                  									<div className={styles.labelLingkungan}>
                     										<div className={styles.lingkungan}>Lingkungan</div>
                   									</div>
                   									<b className={styles.bersihPantaiNusantaraContainer}>Kampanye Kurangi Plastik</b>
@@ -203,13 +204,13 @@ export default function Home() {
                   									<div className={styles.tglloc}>
                     										<div className={styles.tanggal}>
                       											<div className={styles.calendarIcon}>
-                        												<img className={styles.locationIcon} alt="" src="calendar.svg" />
+                        												<img className={styles.locationIcon} alt="" src="/calendar.svg" />
                       											</div>
                       											<div className={styles.sabtu14September}>Sabtu, 5 Oktober 2024</div>
                     										</div>
                     										<div className={styles.tanggal}>
                       											<div className={styles.calendarIcon}>
-                        												<img className={styles.locationIcon} alt="" src="location.svg" />
+                        												<img className={styles.locationIcon} alt="" src="/location.svg" />
                       											</div>
                       											<div className={styles.sabtu14September}>Alun-Alun Kota, Surabaya</div>
                     										</div>
@@ -223,7 +224,7 @@ export default function Home() {
               							</div>
             						</div>
             						<div className={styles.pdCard}>
-              							<img className={styles.imgOnPdCardIcon} alt="" src="img-on-pd-card.png" />
+              							<img className={styles.imgOnPdCardIcon} alt="" src="/img-on-pd-card4.png" />
               							<div className={styles.contentPdCard}>
                 								<div className={styles.detailPdCard}>
                   									<div className={styles.label4}>
@@ -237,13 +238,13 @@ export default function Home() {
                   									<div className={styles.tglloc}>
                     										<div className={styles.tanggal}>
                       											<div className={styles.calendarIcon}>
-                        												<img className={styles.locationIcon} alt="" src="calendar.svg" />
+                        												<img className={styles.locationIcon} alt="" src="/calendar.svg" />
                       											</div>
                       											<div className={styles.sabtu14September}>Sabtu, 28 September 2024</div>
                     										</div>
                     										<div className={styles.tanggal}>
                       											<div className={styles.calendarIcon}>
-                        												<img className={styles.locationIcon} alt="" src="location.svg" />
+                        												<img className={styles.locationIcon} alt="" src="/location.svg" />
                       											</div>
                       											<div className={styles.sabtu14September}>SDN 1, Yogyakarta</div>
                     										</div>
@@ -259,7 +260,7 @@ export default function Home() {
           					</div>
           					<div className={styles.row1Pd}>
             						<div className={styles.pdCard}>
-              							<img className={styles.imgOnPdCardIcon} alt="" src="img-on-pd-card.png" />
+              							<img className={styles.imgOnPdCardIcon} alt="" src="/img-on-pd-card5.png" />
               							<div className={styles.contentPdCard}>
                 								<div className={styles.detailPdCard}>
                   									<div className={styles.label4}>
@@ -273,15 +274,15 @@ export default function Home() {
                   									<div className={styles.tglloc}>
                     										<div className={styles.tanggal}>
                       											<div className={styles.calendarIcon}>
-                        												<img className={styles.locationIcon} alt="" src="calendar.svg" />
+                        												<img className={styles.locationIcon} alt="" src="/calendar.svg" />
                       											</div>
                       											<div className={styles.sabtu14September}>Minggu, 6 Oktober 2024</div>
                     										</div>
                     										<div className={styles.tanggal}>
                       											<div className={styles.calendarIcon}>
-                        												<img className={styles.locationIcon} alt="" src="location.svg" />
+                        												<img className={styles.locationIcon} alt="" src="/location.svg" />
                       											</div>
-                      											<div className={styles.sabtu14September}>alai Desa, Semarang</div>
+                      											<div className={styles.sabtu14September}>Balai Desa, Semarang</div>
                     										</div>
                   									</div>
                 								</div>
@@ -293,7 +294,7 @@ export default function Home() {
               							</div>
             						</div>
             						<div className={styles.pdCard}>
-              							<img className={styles.imgOnPdCardIcon} alt="" src="img-on-pd-card.png" />
+              							<img className={styles.imgOnPdCardIcon} alt="" src="/img-on-pd-card6.png" />
               							<div className={styles.contentPdCard}>
                 								<div className={styles.detailPdCard}>
                   									<div className={styles.label4}>
@@ -307,13 +308,13 @@ export default function Home() {
                   									<div className={styles.tglloc}>
                     										<div className={styles.tanggal}>
                       											<div className={styles.calendarIcon}>
-                        												<img className={styles.locationIcon} alt="" src="calendar.svg" />
+                        												<img className={styles.locationIcon} alt="" src="/calendar.svg" />
                       											</div>
                       											<div className={styles.sabtu14September}>Sabtu, 12 Oktober 2024</div>
                     										</div>
                     										<div className={styles.tanggal}>
                       											<div className={styles.calendarIcon}>
-                        												<img className={styles.locationIcon} alt="" src="location.svg" />
+                        												<img className={styles.locationIcon} alt="" src="/location.svg" />
                       											</div>
                       											<div className={styles.sabtu14September}>Taman Kota, Medan</div>
                     										</div>
@@ -327,13 +328,13 @@ export default function Home() {
               							</div>
             						</div>
             						<div className={styles.pdCard}>
-              							<img className={styles.imgOnPdCardIcon} alt="" src="img-on-pd-card.png" />
+              							<img className={styles.imgOnPdCardIcon} alt="" src="/img-on-pd-card7.png" />
               							<div className={styles.contentPdCard}>
                 								<div className={styles.detailPdCard}>
                   									<div className={styles.label7}>
                     										<div className={styles.lingkungan}>Kesehatan</div>
                   									</div>
-                  									<b className={styles.bersihPantaiNusantaraContainer}> Klinik Kesehatan Gratis</b>
+                  									<b className={styles.bersihPantaiNusantaraContainer}>Klinik Kesehatan Gratis</b>
                   									<div className={styles.penyelenggara}>
                     										<div className={styles.penyelenggaraLogo} />
                     										<div className={styles.yayasanHijauNusantara}>Yayasan Sehat Bersama</div>
@@ -341,13 +342,13 @@ export default function Home() {
                   									<div className={styles.tglloc}>
                     										<div className={styles.tanggal}>
                       											<div className={styles.calendarIcon}>
-                        												<img className={styles.locationIcon} alt="" src="calendar.svg" />
+                        												<img className={styles.locationIcon} alt="" src="/calendar.svg" />
                       											</div>
                       											<div className={styles.sabtu14September}>Minggu, 20 Oktober 2024</div>
                     										</div>
                     										<div className={styles.tanggal}>
                       											<div className={styles.calendarIcon}>
-                        												<img className={styles.locationIcon} alt="" src="location.svg" />
+                        												<img className={styles.locationIcon} alt="" src="/location.svg" />
                       											</div>
                       											<div className={styles.sabtu14September}>Lapangan Merdeka, Palembang</div>
                     										</div>
@@ -361,7 +362,7 @@ export default function Home() {
               							</div>
             						</div>
             						<div className={styles.pdCard}>
-              							<img className={styles.imgOnPdCardIcon} alt="" src="img-on-pd-card.png" />
+              							<img className={styles.imgOnPdCardIcon} alt="" src="/img-on-pd-card8.png" />
               							<div className={styles.contentPdCard}>
                 								<div className={styles.detailPdCard}>
                   									<div className={styles.label7}>
@@ -375,13 +376,13 @@ export default function Home() {
                   									<div className={styles.tglloc}>
                     										<div className={styles.tanggal}>
                       											<div className={styles.calendarIcon}>
-                        												<img className={styles.locationIcon} alt="" src="calendar.svg" />
+                        												<img className={styles.locationIcon} alt="" src="/calendar.svg" />
                       											</div>
                       											<div className={styles.sabtu14September}>Sabtu, 26 Oktober 2024</div>
                     										</div>
                     										<div className={styles.tanggal}>
                       											<div className={styles.calendarIcon}>
-                        												<img className={styles.locationIcon} alt="" src="location.svg" />
+                        												<img className={styles.locationIcon} alt="" src="/location.svg" />
                       											</div>
                       											<div className={styles.sabtu14September}>Alun-Alun Kota, Makassar</div>
                     										</div>
@@ -403,112 +404,114 @@ export default function Home() {
         				</div>
       			</div>
       			<div className={styles.donateSection}>
-        				<div className={styles.txtOnSectionProduct}>
-          					<b className={styles.semakinBanyakOrang}>Mereka sangat membutuhkan bantuan kamu</b>
-          					<div className={styles.banyakOrangMembutuhkan}>Bukan masalah besar atau kecilnya, sekecil apapun bantuanmu dapat mengukir masa depan mereka</div>
-        				</div>
-        				<div className={styles.donateCards}>
-          					<div className={styles.donateCardLingk}>
-            						<div className={styles.contentDonateCard}>
-              							<div className={styles.detailPdCard}>
-                								<div className={styles.label9}>
-                  									<div className={styles.lingkungan}>Lingkungan</div>
-                								</div>
-                								<div className={styles.title}>
-                  									<div className={styles.restorasiHutanKalimantan}>Restorasi Hutan Kalimantan</div>
-                  									<div className={styles.yayasanAlamLestari}>Yayasan Alam Lestari</div>
-                								</div>
-                								<div className={styles.terkumpul}>
-                  									<div className={styles.slider}>
-                    										<div className={styles.objSlider} />
-                  									</div>
-                  									<div className={styles.uang}>
-                    										<div className={styles.idr75000000}>IDR 75.000.000</div>
-                    										<div className={styles.idr150000000}>IDR 150.000.000</div>
-                  									</div>
-                								</div>
-              							</div>
-              							<div className={styles.primaryButtonMedium3}>
-                								<div className={styles.icon2} />
-                								<div className={styles.text1}>Berikan donasi</div>
-                								<div className={styles.icon2} />
-              							</div>
-            						</div>
-          					</div>
-          					<div className={styles.donateCardPend}>
-            						<div className={styles.contentDonateCard}>
-              							<div className={styles.detailPdCard}>
-                								<div className={styles.label10}>
-                  									<div className={styles.lingkungan}>Pendidikan</div>
-                								</div>
-                								<div className={styles.title}>
-                  									<div className={styles.restorasiHutanKalimantan}>Beasiswa Anak Cerdas</div>
-                  									<div className={styles.yayasanAlamLestari}>Yayasan Pendidikan Harapan Bangsa</div>
-                								</div>
-                								<div className={styles.terkumpul}>
-                  									<div className={styles.slider}>
-                    										<div className={styles.objSlider1} />
-                  									</div>
-                  									<div className={styles.uang}>
-                    										<div className={styles.idr75000000}>IDR 120.000.00</div>
-                    										<div className={styles.idr150000000}>IDR 200.000.000</div>
-                  									</div>
-                								</div>
-              							</div>
-              							<div className={styles.primaryButtonMedium3}>
-                								<div className={styles.icon2} />
-                								<div className={styles.text1}>Berikan donasi</div>
-                								<div className={styles.icon2} />
-              							</div>
-            						</div>
-          					</div>
-          					<div className={styles.donateCardKes}>
-            						<div className={styles.contentDonateCard}>
-              							<div className={styles.detailPdCard}>
-                								<div className={styles.label11}>
-                  									<div className={styles.lingkungan}>Kesehatan</div>
-                								</div>
-                								<div className={styles.title}>
-                  									<div className={styles.restorasiHutanKalimantan}>Klinik Gratis di Desa Tertinggal</div>
-                  									<div className={styles.yayasanAlamLestari}>Yayasan Alam Lestari</div>
-                								</div>
-                								<div className={styles.terkumpul}>
-                  									<div className={styles.slider}>
-                    										<div className={styles.objSlider} />
-                  									</div>
-                  									<div className={styles.uang}>
-                    										<div className={styles.idr75000000}>IDR 50.000.000</div>
-                    										<div className={styles.idr150000000}>IDR 100.000.000</div>
-                  									</div>
-                								</div>
-              							</div>
-              							<div className={styles.primaryButtonMedium3}>
-                								<div className={styles.icon2} />
-                								<div className={styles.text1}>Berikan donasi</div>
-                								<div className={styles.icon2} />
-              							</div>
-            						</div>
-          					</div>
-        				</div>
-        				<div className={styles.primaryButtonLarge1}>
-          					<div className={styles.icon} />
-          					<div className={styles.text13}>Lihat semuanya</div>
-          					<div className={styles.icon} />
-        				</div>
-      			</div>
+
+            <div className={styles.txtOnSectionDonate}>
+              <b className={styles.merekaSangatMembutuhkan}>Mereka sangat membutuhkan bantuan kamu</b>
+              <div className={styles.bukanMasalahBesar}>Bukan masalah besar atau kecilnya, sekecil apapun bantuanmu dapat mengukir masa depan mereka</div>
+            </div>
+            <div className={styles.donateCards}>
+              <div className={styles.donateCardLingk}>
+                <div className={styles.contentDonateCard}>
+                  <div className={styles.detailDonCard}>
+                    <div className={styles.label}>
+                      <div className={styles.lingkungan}>Lingkungan</div>
+                    </div>
+                    <div className={styles.title}>
+                      <div className={styles.restorasiHutanKalimantan}>Restorasi Hutan Kalimantan</div>
+                        <div className={styles.yayasanAlamLestari}>Yayasan Alam Lestari</div>
+                    </div>
+            <div className={styles.terkumpul}>
+            <div className={styles.slider}>
+            <div className={styles.objSlider} />
+            </div>
+            <div className={styles.uang}>
+            <div className={styles.idr75000000}>IDR 75.000.000</div>
+            <div className={styles.idr150000000}>IDR 150.000.000</div>
+            </div>
+            </div>
+            </div>
+            <div className={styles.primaryButtonMedium}>
+            <div className={styles.icon} />
+            <div className={styles.text}>Berikan donasi</div>
+            <div className={styles.icon} />
+            </div>
+            </div>
+            </div>
+            <div className={styles.donateCardPend}>
+            <div className={styles.contentDonateCard}>
+            <div className={styles.detailDonCard}>
+            <div className={styles.label1}>
+            <div className={styles.lingkungan}>Pendidikan</div>
+            </div>
+            <div className={styles.title}>
+            <div className={styles.restorasiHutanKalimantan}>Beasiswa Anak Cerdas</div>
+            <div className={styles.yayasanAlamLestari}>Yayasan Pendidikan Harapan Bangsa</div>
+            </div>
+            <div className={styles.terkumpul}>
+            <div className={styles.slider}>
+            <div className={styles.objSlider1} />
+            </div>
+            <div className={styles.uang}>
+            <div className={styles.idr75000000}>IDR 120.000.00</div>
+            <div className={styles.idr150000000}>IDR 200.000.000</div>
+            </div>
+            </div>
+            </div>
+            <div className={styles.primaryButtonMedium}>
+            <div className={styles.icon} />
+            <div className={styles.text}>Berikan donasi</div>
+            <div className={styles.icon} />
+            </div>
+            </div>
+            </div>
+            <div className={styles.donateCardKes}>
+            <div className={styles.contentDonateCard}>
+            <div className={styles.detailDonCard}>
+            <div className={styles.label2}>
+            <div className={styles.lingkungan}>Kesehatan</div>
+            </div>
+            <div className={styles.title}>
+            <div className={styles.restorasiHutanKalimantan}>Klinik Gratis di Desa Tertinggal</div>
+            <div className={styles.yayasanAlamLestari}>Yayasan Alam Lestari</div>
+            </div>
+            <div className={styles.terkumpul}>
+            <div className={styles.slider}>
+            <div className={styles.objSlider} />
+            </div>
+            <div className={styles.uang}>
+            <div className={styles.idr75000000}>IDR 50.000.000</div>
+            <div className={styles.idr150000000}>IDR 100.000.000</div>
+            </div>
+            </div>
+            </div>
+            <div className={styles.primaryButtonMedium}>
+            <div className={styles.icon} />
+            <div className={styles.text}>Berikan donasi</div>
+            <div className={styles.icon} />
+            </div>
+            </div>
+            </div>
+            </div>
+            <div className={styles.primaryButtonLarge}>
+            <div className={styles.icon6} />
+            <div className={styles.text3}>Lihat semuanya</div>
+            <div className={styles.icon6} />
+            </div>
+            </div>
+
       			<div className={styles.reviewSection}>
         				<b className={styles.semakinBanyakOrang}>Apa kata mereka tentang volunteer?</b>
           					<div className={styles.rvCards}>
             						<div className={styles.row1Rv}>
               							<div className={styles.rvCard}>
-                								<img className={styles.profileOnReviewIcon} alt="" src="profile-on-review.png" />
+                								<img className={styles.profileOnReviewIcon} alt="" src="/profile-on-review.png" />
                 								<div className={styles.contentRvCard}>
                   									<b className={styles.iniMerupakanPengalaman}>Ini merupakan pengalaman yang sangat luar biasa, saya merasa sangat baik dengan mengikuti volunteering, dan saya harap bisa lebih banyak lagi orang yang ingin melalukan voluntary.</b>
                   									<div className={styles.sitiAsmuni}>Siti Asmuni</div>
                 								</div>
               							</div>
               							<div className={styles.rvCard}>
-                								<img className={styles.profileOnReviewIcon} alt="" src="profile-on-review.png" />
+                								<img className={styles.profileOnReviewIcon} alt="" src="/profile-on-review2.png" />
                 								<div className={styles.contentRvCard}>
                   									<b className={styles.iniMerupakanPengalaman}>Bersih Pantai Nusantara adalah pengalaman yang menginspirasi. Saya senang melihat semangat bersama menjaga kebersihan pantai.</b>
                   									<div className={styles.sitiAsmuni}>Rina</div>
@@ -517,14 +520,14 @@ export default function Home() {
             						</div>
             						<div className={styles.row1Rv}>
               							<div className={styles.rvCard}>
-                								<img className={styles.profileOnReviewIcon} alt="" src="profile-on-review.png" />
+                								<img className={styles.profileOnReviewIcon} alt="" src="/profile-on-review3.png" />
                 								<div className={styles.contentRvCard}>
                   									<b className={styles.iniMerupakanPengalaman}>Penanaman Pohon Serentak di Bandung memberi saya kesempatan berkontribusi untuk lingkungan. Sangat bermanfaat!</b>
                   									<div className={styles.sitiAsmuni}>Ahmad</div>
                 								</div>
               							</div>
-              							<div className={styles.rvCard}>
-                								<img className={styles.profileOnReviewIcon} alt="" src="profile-on-review.png" />
+              							<div className={styles.rvCard}> 
+                								<img className={styles.profileOnReviewIcon} alt="" src="/profile-on-review4.png" />
                 								<div className={styles.contentRvCard}>
                   									<b className={styles.iniMerupakanPengalaman}>Kelas Inspirasi Anak Nusantara di Yogyakarta mengesankan. Saya bangga bisa berbagi inspirasi dengan anak-anak.</b>
                   									<div className={styles.sitiAsmuni}>Budi</div>

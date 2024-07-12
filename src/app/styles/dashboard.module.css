@@ -1,0 +1,197 @@
+.imgOnPdCardIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 202px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.lingkungan {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.label {
+  border-radius: 999px;
+  background-color: #f0ffe6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  text-align: center;
+  color: #58cc02;
+}
+.bersihPantaiNusantara {
+  margin: 0;
+}
+.bersihPantaiNusantaraContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 22px;
+  line-height: 28px;
+}
+.penyelenggaraLogo {
+  width: 22px;
+  position: relative;
+  border-radius: 999px;
+  background-color: #d9d9d9;
+  height: 22px;
+  display: none;
+}
+.yayasanHijauNusantara {
+  flex: 1;
+  position: relative;
+  line-height: 22px;
+  font-weight: 500;
+}
+.penyelenggara {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 16px;
+  color: #71747d;
+}
+.calendarIcon {
+  border-radius: 999px;
+  background-color: #e7f2ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px;
+}
+.sabtu14September {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.tanggal {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.locationIcon {
+  width: 12px;
+  position: relative;
+  height: 12px;
+}
+.tglloc {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.detailPdCard {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.icon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  display: none;
+}
+.text {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.primaryButtonMedium {
+  align-self: stretch;
+  border-radius: 999px;
+  background-color: #007cff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 20px;
+  gap: 8px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+.contentPdCard {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px;
+  gap: 32px;
+}
+.pdCard {
+  width: 340px;
+  box-shadow: 0px 4px 0px #eceef3;
+  border-radius: 16px;
+  background-color: #fff;
+  border: 1px solid #eceef3;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.label3 {
+  border-radius: 999px;
+  background-color: #fff4e5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  text-align: center;
+  color: #ff9600;
+}
+.row1Pd {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.label6 {
+  border-radius: 999px;
+  background-color: #ffe5ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  text-align: center;
+  color: #ff66ff;
+}
+.contentAct {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 154px 80px 80px;
+  box-sizing: border-box;
+  gap: 28px;
+  text-align: left;
+  font-size: 14px;
+  color: #303135;
+  font-family: 'Plus Jakarta Sans';
+}
+

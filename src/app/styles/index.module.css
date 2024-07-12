@@ -77,11 +77,10 @@
   gap: 16px;
   color: #007cff;
 }
+
 .navigasiBar {
   width: 100%;
   position: fixed;
-  top: 0;
-  margin: 0 !important;
   top: 0px;
   left: 0px;
   box-shadow: 0px 2px 8px rgba(48, 49, 53, 0.16);
@@ -508,6 +507,18 @@
   font-weight: 600;
 }
 .label1 {
+  background: #F0FFE6;
+  border-radius: 999px;
+  background-color: #f0ffe6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  text-align: center;
+  color: #58cc02;
+}
+.labelLingkungan {
   border-radius: 999px;
   background-color: #f0ffe6;
   display: flex;
@@ -619,7 +630,8 @@
   gap: 32px;
 }
 .pdCard {
-  width: 302px;
+  align-self: stretch;
+  width: 340px;
   box-shadow: 0px 4px 0px #eceef3;
   border-radius: 16px;
   background-color: #fff;
@@ -707,6 +719,7 @@
   object-fit: cover;
 }
 .iniMerupakanPengalaman {
+  text-align: justify;
   align-self: stretch;
   position: relative;
   line-height: 24px;
@@ -728,6 +741,7 @@
   gap: 16px;
 }
 .rvCard {
+  align-self: stretch;
   width: 628px;
   box-shadow: 0px 4px 0px #eceef3;
   border-radius: 16px;
@@ -773,6 +787,7 @@
   background-position: top;
 }
 .hmContent {
+  overflow: visible;
   width: 100%;
   position: relative;
   display: flex;
@@ -784,6 +799,601 @@
   gap: 40px;
   text-align: center;
   font-size: 24px;
+  color: #303135;
+  font-family: 'Plus Jakarta Sans';
+}
+
+.merekaSangatMembutuhkan {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+}
+.bukanMasalahBesar {
+  position: relative;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #71747d;
+  display: inline-block;
+}
+.txtOnSectionDonate {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.lingkungan {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.label {
+  border-radius: 999px;
+  background-color: #f0ffe6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  text-align: center;
+}
+.restorasiHutanKalimantan {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.yayasanAlamLestari {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #71747d;
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 22px;
+  color: #303135;
+}
+.objSlider {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 999px;
+  background-color: #007cff;
+  width: 151px;
+  height: 6px;
+}
+.slider {
+  align-self: stretch;
+  position: relative;
+  border-radius: 999px;
+  background-color: #e0e2eb;
+  height: 6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.idr75000000 {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+}
+.idr150000000 {
+  flex: 1;
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+  color: #303135;
+  text-align: right;
+}
+.uang {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.terkumpul {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 12px;
+  color: #8c8f97;
+}
+.detailDonCard {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.icon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  display: none;
+}
+.text {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+}
+.primaryButtonMedium {
+  align-self: stretch;
+  border-radius: 999px;
+  background-color: #007cff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 20px;
+  gap: 8px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+.contentDonateCard {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  gap: 32px;
+}
+.donateCardLingk {
+  width: 411px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 200px 20px 20px;
+  box-sizing: border-box;
+  background-image: url('/donate-card-lingk.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.label1 {
+  border-radius: 999px;
+  background-color: #fff4e5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  text-align: center;
+}
+.objSlider1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 999px;
+  background-color: #007cff;
+  width: 240px;
+  height: 6px;
+}
+.donateCardPend {
+  width: 410px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 200px 20px 20px;
+  box-sizing: border-box;
+  background-image: url('/donate-card-pend.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: #ff9600;
+}
+.label2 {
+  border-radius: 999px;
+  background-color: #ffe5ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  text-align: center;
+}
+.donateCardKes {
+  width: 411px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 200px 20px 20px;
+  box-sizing: border-box;
+  background-image: url('/donate-card-kes.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: #ff66ff;
+}
+.donateCards {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  text-align: left;
+  font-size: 14px;
+  color: #58cc02;
+}
+.icon6 {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  display: none;
+}
+.text3 {
+  text-align: center;
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.primaryButtonLarge {
+  width: 480px;
+  border-radius: 999px;
+  background-color: #e7f2ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  gap: 8px;
+  font-size: 22px;
+  color: #007cff;
+}
+.donateSection {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 80px;
+  box-sizing: border-box;
+  gap: 40px;
+  text-align: center;
+  font-size: 24px;
+  color: #303135;
+  font-family: 'Plus Jakarta Sans';
+}
+
+.imgPdp1Icon {
+  width: 710px;
+  position: relative;
+  height: 474px;
+  object-fit: cover;
+}
+.imgPdp2Icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 227px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.row2 {
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.imgsOnPdp {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.lingkungan {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.label {
+  border-radius: 999px;
+  background-color: #f0ffe6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  text-align: center;
+  color: #58cc02;
+}
+.bersihPantaiNusantara {
+  align-self: stretch;
+  position: relative;
+  line-height: 40px;
+}
+.penyelenggaraLogo {
+  width: 22px;
+  position: relative;
+  border-radius: 999px;
+  background-color: #d9d9d9;
+  height: 22px;
+  display: none;
+}
+.yayasanHijauNusantara {
+  width: 1280px;
+  position: relative;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #71747d;
+  display: inline-block;
+  height: 24px;
+  flex-shrink: 0;
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 32px;
+}
+.calendarIcon {
+  border-radius: 999px;
+  background-color: #e7f2ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px;
+}
+.sabtu14September {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.tanggal {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.locationIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+}
+.tglloc {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.icon {
+  width: 18px;
+  position: relative;
+  height: 18px;
+  display: none;
+}
+.text {
+  position: relative;
+  text-align: center;
+  line-height: 28px;
+  font-weight: 600;
+}
+.primaryButtonLarge {
+  border-radius: 999px;
+  background-color: #007cff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 24px;
+  gap: 8px;
+  font-size: 22px;
+  color: #fff;
+  width: 310px;
+}
+.loccta {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 18px;
+}
+.titlecta {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 28px;
+  font-size: 14px;
+}
+.divider {
+  align-self: stretch;
+  position: relative;
+  border-radius: 999px;
+  background-color: #e0e2eb;
+  height: 2px;
+}
+.haloGenerasiMuda {
+  margin: 0;
+}
+.haloGenerasiMudaContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  color: #4d4f56;
+}
+.detailAktivitas {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+}
+.metodeBriefing {
+  width: 240px;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.txtDetailAct {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 18px;
+  color: #4d4f56;
+}
+.detailAct {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 22px;
+}
+.kontakOrganisasi {
+  align-self: stretch;
+  position: relative;
+  font-size: 22px;
+  line-height: 28px;
+  color: #303135;
+}
+.cncOrg {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  color: #4d4f56;
+}
+.mendapatkanSertifikat {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.relasiYangSolid {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+}
+.relasiYangSolid li {
+  margin-bottom: 20px;
+}
+.profileOnReviewIcon {
+  width: 132px;
+  position: relative;
+  border-radius: 8px;
+  height: 132px;
+  object-fit: cover;
+}
+.menyenangkanIkutBersih {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+}
+.andi {
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #71747d;
+}
+.rvCard {
+  width: 628px;
+  box-shadow: 0px 4px 0px #eceef3;
+  border-radius: 16px;
+  background-color: #fff;
+  border: 1px solid #eceef3;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+.row1Rv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.rvCardsPdp {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  font-size: 18px;
+}
+.contentPdp1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 40px 80px;
+  gap: 40px;
+}
+.contentPdp {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 74px 0px 0px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 18px;
   color: #303135;
   font-family: 'Plus Jakarta Sans';
 }

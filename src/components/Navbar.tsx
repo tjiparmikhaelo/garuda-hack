@@ -1,5 +1,4 @@
-import type { NextPage } from 'next';
-import styles from '@/app/index.module.css';
+import styles from '@/app/styles/index.module.css';
 import MaxWidthWrapper from './MaxWidthWrapper';
 
 const Navbar = () => {

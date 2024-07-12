@@ -1,0 +1,88 @@
+.epsuccessFilledIcon {
+  width: 64px;
+  position: relative;
+  height: 64px;
+}
+.telahBerhasilTerkirim {
+  align-self: stretch;
+  position: relative;
+  line-height: 40px;
+}
+.informasiLebihLanjut {
+  align-self: stretch;
+  position: relative;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #71747d;
+}
+.title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.contentSuc {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  display: none;
+}
+.text {
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.primaryButtonLarge {
+  align-self: stretch;
+  border-radius: 999px;
+  background-color: #007cff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 24px;
+  gap: 8px;
+  font-size: 22px;
+  color: #fff;
+}
+.successCard {
+  width: 844px;
+  box-shadow: 0px 2px 8px rgba(48, 49, 53, 0.16);
+  border-radius: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 40px;
+  box-sizing: border-box;
+  gap: 40px;
+}
+.contentBio {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 154px 80px 80px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 32px;
+  color: #303135;
+  font-family: 'Plus Jakarta Sans';
+}
+
