@@ -3,7 +3,7 @@ import MaxWidthWrapper from './MaxWidthWrapper';
 
 const Navbar = () => {
   	return (
-			<nav className='fixed sticky-z-[100] inset-x-0 top-0 w-full border-b
+			<nav className='absolute sticky-z-[100] inset-x-0 top-0 w-full border-b
 				border-gray-200 bg-white/75 backdrop-blur-lg transition-all'>
 					<MaxWidthWrapper>
 						<div className={styles.navigasiBar}>
